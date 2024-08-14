@@ -1,0 +1,85 @@
+2024-08-13 19:56:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ODONTOLOGO (ID INT AUTO_INCREMENT PRIMARY KEY,NOMBRE VARCHAR(100) NOT NULL,APELLIDO VARCHAR(100) NOT NULL,NUMER_MATRICULA INT NOT NULL,[*]"; expected "identifier"; SQL statement:
+CREATE TABLE ODONTOLOGO (ID INT AUTO_INCREMENT PRIMARY KEY,NOMBRE VARCHAR(100) NOT NULL,APELLIDO VARCHAR(100) NOT NULL,NUMER_MATRICULA INT NOT NULL, [42001-214]
+2024-08-13 19:56:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 19:56:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 19:56:02 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 19:56:02 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGO [42104-214]
+2024-08-13 19:57:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ODONTOLOGO (ID INT AUTO_INCREMENT PRIMARY KEY,NOMBRE VARCHAR(100) NOT NULL,APELLIDO VARCHAR(100) NOT NULL,NUMERO_MATRICULA INT NOT NULL,[*]"; expected "identifier"; SQL statement:
+CREATE TABLE ODONTOLOGO (ID INT AUTO_INCREMENT PRIMARY KEY,NOMBRE VARCHAR(100) NOT NULL,APELLIDO VARCHAR(100) NOT NULL,NUMERO_MATRICULA INT NOT NULL, [42001-214]
+2024-08-13 19:57:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 19:57:40 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 19:57:40 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 19:57:40 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGO [42104-214]
+2024-08-13 20:00:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ODONTOLOGO (ID INT AUTO_INCREMENT PRIMARY KEY,NOMBRE VARCHAR(100) NOT NULL,APELLIDO VARCHAR(100) NOT NULL,NUMERO_MATRICULA INT NOT NULL,[*]"; expected "identifier"; SQL statement:
+CREATE TABLE ODONTOLOGO (ID INT AUTO_INCREMENT PRIMARY KEY,NOMBRE VARCHAR(100) NOT NULL,APELLIDO VARCHAR(100) NOT NULL,NUMERO_MATRICULA INT NOT NULL, [42001-214]
+2024-08-13 20:00:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 20:00:49 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 20:00:49 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [42104-214]
+2024-08-13 20:00:49 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGO [42104-214]
+2024-08-13 20:02:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Jobs' (ODONTOLOGO: ""NUMERO_MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [22018-214]
+2024-08-13 20:02:40 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Gates' (ODONTOLOGO: ""NUMERO_MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [22018-214]
+2024-08-13 20:02:40 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Zuckerberg' (ODONTOLOGO: ""NUMERO_MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [22018-214]
+2024-08-13 20:04:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGO" already exists; SQL statement:
+DROP TABLE IF EXISTS CLINICA [42101-214]
+2024-08-13 20:04:52 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLTimeoutException: Timeout trying to lock table "SYS"; SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [50200-214]
+2024-08-13 20:04:52 jdbc[5]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:190)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:132)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at dao.BD.getConnection(BD.java:34)
+	at dao.impl.ImplementacionDaoH2.guardar(ImplementacionDaoH2.java:18)
+	at dao.impl.ImplementacionDaoH2.guardar(ImplementacionDaoH2.java:11)
+	at servicio.OdontologoServicio.guardar(OdontologoServicio.java:17)
+	at Main.main(Main.java:27)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 13 more
+2024-08-13 20:04:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Gates' (ODONTOLOGO: ""NUMERO_MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [22018-214]
+2024-08-13 20:04:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'Zuckerberg' (ODONTOLOGO: ""NUMERO_MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO ODONTOLOGO (nombre, apellido, numero_matricula) VALUES (?,?,?) [22018-214]
